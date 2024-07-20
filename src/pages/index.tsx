@@ -28,6 +28,7 @@ export default function Home() {
   return (
     <div className={`bg-1 min-h-screen ${poppingBold.className}`}>
       <Head>
+      <title>Erik Figueiredo | Desenvolvedor FullStack Senior</title>
         <link rel="manifest" href="/erikfig/manifest.json" />
         <link rel="icon" href="/erikfig/icon512_rounded.png" />
       </Head>
