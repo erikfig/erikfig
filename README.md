@@ -25,4 +25,3 @@ Desenvolvedor Sênior com mais de 15 anos de experiência, especializado em Node
 ](https://www.erikfigueiredo.com.br/)
 
 ![stats](https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=erikfig&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats)
-

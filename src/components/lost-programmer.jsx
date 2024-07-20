@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export const ModelCanvas = (props) => {
-  const { nodes, materials } = useGLTF('/lost-programmer.glb')
+  const { nodes, materials } = useGLTF('/erikfig/lost-programmer.glb')
 
   return (
     <group {...props} dispose={null}>
@@ -81,4 +81,4 @@ export const ModelCanvas = (props) => {
   )
 }
 
-useGLTF.preload('/lost-programmer.glb')
+useGLTF.preload('/erikfig/lost-programmer.glb')

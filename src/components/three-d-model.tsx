@@ -6,7 +6,7 @@ import { Suspense } from "react";
 
 export const ThreeDModel = () => {
   const myMesh = React.useRef<any>()
-  const { scene, animations } = useGLTF('/lost-programmer.glb')
+  const { scene, animations } = useGLTF('/erikfig/lost-programmer.glb')
   // const { actions } = useAnimations(animations, myMesh)
 
   // useEffect(() => {

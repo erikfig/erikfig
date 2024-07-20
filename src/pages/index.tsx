@@ -28,8 +28,8 @@ export default function Home() {
   return (
     <div className={`bg-1 min-h-screen ${poppingBold.className}`}>
       <Head>
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/icon512_rounded.png" />
+        <link rel="manifest" href="/erikfig/manifest.json" />
+        <link rel="icon" href="/erikfig/icon512_rounded.png" />
       </Head>
 
       <div className="bg-2 min-h-screen">
@@ -37,12 +37,12 @@ export default function Home() {
           <header className="bg-clarify flex w-full flex-col items-center">
             <div className="flex justify-between items-center w-full max-w-screen-2xl px-8">
               <h1 className="text-3xl py-6 flex items-center text-nowrap text-ellipsis gap-3 overflow-hidden" style={{maxWidth: 284}}>
-                <Image className="rounded-full" src="/erik.jpeg" alt="Foto Erik" width={50} height={50} />
+                <Image className="rounded-full" src="/erikfig/erik.jpeg" alt="Foto Erik" width={50} height={50} />
                 <HackEffectText text="Erik Figueiredo" intervalTimer={25}/>
               </h1>
 
               <a className='up-on-hover flex items-center gap-3' href="https://github.com/erikfig" target="_blank">
-                <Image src="/github-mark.svg" alt="GitHub" width={50} height={50} />
+                <Image src="/erikfig/github-mark.svg" alt="GitHub" width={50} height={50} />
               </a>
             </div>
           </header>
@@ -72,11 +72,11 @@ export default function Home() {
           <footer className="w-full max-w-screen-2xl pt-8 pr-8 pb-4 pl-8 flex items-center justify-between gap-3">
             <div className='flex items-center gap-3'>
               <a href="https://www.linkedin.com/in/erik-figueiredo/" target="_blank" className="up-on-hover py-2 px-4 bg-gray-950 rounded-md font-bold flex items-center gap-3" style={{ height: 41 }}>
-                <Image className="inline" src="/linkedin-mark.svg" alt="Linkedin" width={25} height={25} />
+                <Image className="inline" src="/erikfig/linkedin-mark.svg" alt="Linkedin" width={25} height={25} />
                 <HackEffectText text="Linkedin" intervalTimer={25} />
               </a>
-              <a href="/profile.pdf" target="_blank" className="up-on-hover py-2 px-4 bg-gray-900 rounded-md font-bold flex items-center gap-3" style={{ height: 41 }}>
-                <Image className="inline" src="/download.svg" alt="Currículo" width={25} height={25} />
+              <a href="/erikfig/profile.pdf" target="_blank" className="up-on-hover py-2 px-4 bg-gray-900 rounded-md font-bold flex items-center gap-3" style={{ height: 41 }}>
+                <Image className="inline" src="/erikfig/download.svg" alt="Currículo" width={25} height={25} />
                 <HackEffectText text="Currículo" intervalTimer={25} />
               </a>
             </div>
@@ -92,7 +92,7 @@ export default function Home() {
                   }
                 )}
               }>
-              <Image className="inline" src="/share.svg" alt="Compartilhar" width={25} height={25} />
+              <Image className="inline" src="/erikfig/share.svg" alt="Compartilhar" width={25} height={25} />
             </button>
           </footer>
         </div>
