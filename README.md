@@ -1,40 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=erikfig.php-do-zero" />
 
-## Getting Started
+# Erik Figueiredo (˶ᵔ ᵕ ᵔ˶)
 
-First, run the development server:
+<img align="right" src="https://avatars.githubusercontent.com/u/4331013?v=4" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ☝Desenvolvedor Full Stack Senior apaixonado pelo que faz!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Desenvolvedor Sênior com mais de 15 anos de experiência, especializado em Node.js, TypeScript e PHP
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+>Cada sonho que você deixa para trás é um pedaço do seu futuro que deixa de existir</p>
+>*Steve Jobs*
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Minhas skills
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[![My Skills](https://skillicons.dev/icons?i=nodejs,nest,adonis,nextjs,nuxtjs,express,php,docker,kubernetes,nginx,mongodb,mysql,postgres,sqlite,js,html,css,nest,aws,gcp,githubactions,firebase,cypress,bitbucket,github,gitlab,deno,electron,materialui,linux,rabbitmq,redis,regex,sass,unreal,tailwind&perline=9)](https://skillicons.dev)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Também é importante
 
-## Learn More
+🔥 Atualmente estudando **dotNet** e **Python**
 
-To learn more about Next.js, take a look at the following resources:
+[![Linkedin](https://img.shields.io/badge/linkedin-erik?style=for-the-badge&logo=linkedin&labelColor=%230e76a8&color=%230e76a8&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ferik-figueiredo%2F)
+](https://www.linkedin.com/in/erik-figueiredo/)
+[![Personal Site](https://img.shields.io/badge/personal-site-erik?style=for-the-badge&labelColor=%230f172a&color=%230e76a8&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ferik-figueiredo%2F)
+](https://www.erikfigueiredo.com.br/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![stats](https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=erikfig&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

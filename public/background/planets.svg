@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fb923c;
+      }
+
+      .cls-2 {
+        fill: #3b82f6;
+      }
+
+      .cls-3 {
+        fill: #fcd34d;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #9a3412;
+        stroke-miterlimit: 10;
+        stroke-width: 15px;
+      }
+
+      .cls-5 {
+        fill: #f97316;
+      }
+
+      .cls-6 {
+        fill: #22d3ee;
+      }
+
+      .cls-7 {
+        fill: #dc2626;
+      }
+
+      .cls-8 {
+        fill: #fed7aa;
+      }
+    </style>
+  </defs>
+  <g id="neptune">
+    <circle class="cls-6" cx="904.5" cy="831.5" r="55"/>
+  </g>
+  <g id="uranus">
+    <circle class="cls-2" cx="2960" cy="1401" r="60"/>
+  </g>
+  <g id="saturn">
+    <path class="cls-5" d="M550.39,387.09c16.34,35.04,1.18,76.69-33.86,93.02-35.04,16.34-76.69,1.18-93.02-33.86"/>
+    <ellipse class="cls-4" cx="488.73" cy="416.95" rx="110" ry="17.5" transform="translate(-130.42 245.61) rotate(-25)"/>
+    <path class="cls-5" d="M423.89,447.08c-16.34-35.04-1.18-76.69,33.86-93.02,35.04-16.34,76.69-1.18,93.02,33.86"/>
+  </g>
+  <g id="jupiter">
+    <circle class="cls-8" cx="2239.5" cy="473.5" r="100.5"/>
+  </g>
+  <g id="mars">
+    <circle class="cls-7" cx="3493.5" cy="1002.5" r="37.5"/>
+  </g>
+  <g id="venus">
+    <circle class="cls-1" cx="1235" cy="1354" r="60"/>
+  </g>
+  <g id="mercury">
+    <circle class="cls-3" cx="399" cy="1556" r="24"/>
+  </g>
+</svg>

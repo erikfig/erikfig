@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e2e8f0;
+      }
+
+      .cls-2 {
+        fill: #94a3b8;
+      }
+
+      .cls-3 {
+        fill: #cbd5e1;
+      }
+    </style>
+  </defs>
+  <g id="smoke_top">
+    <ellipse class="cls-1" cx="1656" cy="1902" rx="287" ry="122"/>
+    <ellipse class="cls-1" cx="1870" cy="1860" rx="62" ry="122"/>
+    <ellipse class="cls-1" cx="1805" cy="1882" rx="199" ry="122"/>
+    <ellipse class="cls-1" cx="1918" cy="1852" rx="62" ry="122"/>
+    <ellipse class="cls-1" cx="1968" cy="1862" rx="62" ry="122"/>
+    <ellipse class="cls-1" cx="1967.5" cy="1884" rx="219.5" ry="122"/>
+    <ellipse class="cls-1" cx="2176.5" cy="1917" rx="379.5" ry="122"/>
+  </g>
+  <g id="smoke_middle">
+    <ellipse class="cls-3" cx="1196" cy="2004.5" rx="330" ry="114.5"/>
+    <ellipse class="cls-3" cx="1455" cy="1948" rx="254" ry="122"/>
+    <ellipse class="cls-3" cx="2529.5" cy="1982" rx="272.5" ry="122"/>
+    <ellipse class="cls-3" cx="2162.5" cy="1948" rx="159.5" ry="122"/>
+    <ellipse class="cls-3" cx="1906.5" cy="1928" rx="272.5" ry="122"/>
+    <ellipse class="cls-3" cx="1690" cy="1941" rx="150" ry="122"/>
+    <circle class="cls-3" cx="2305" cy="1959" r="122"/>
+  </g>
+  <g id="smoke_bottom">
+    <path class="cls-2" d="M545,2159.75c0-47.22-122-85.5-272.5-85.5S0,2112.53,0,2159.75"/>
+    <path class="cls-2" d="M3840.29,2160c0-51.36-150.26-93-335.61-93s-335.61,41.64-335.61,93"/>
+    <ellipse class="cls-2" cx="3362.5" cy="2083" rx="272.5" ry="76"/>
+    <ellipse class="cls-2" cx="630.5" cy="2066.5" rx="272.5" ry="92.5"/>
+    <ellipse class="cls-2" cx="3170" cy="2055" rx="135" ry="105"/>
+    <ellipse class="cls-2" cx="437.5" cy="2094.5" rx="276.5" ry="64.5"/>
+    <ellipse class="cls-2" cx="959.5" cy="2051.5" rx="272.5" ry="107.5"/>
+    <ellipse class="cls-2" cx="2856.5" cy="2043" rx="272.5" ry="116"/>
+    <ellipse class="cls-2" cx="1201.5" cy="2045.5" rx="146.5" ry="113.5"/>
+    <ellipse class="cls-2" cx="1490.5" cy="2019" rx="194.5" ry="122"/>
+    <ellipse class="cls-2" cx="2609" cy="2038" rx="165" ry="122"/>
+    <ellipse class="cls-2" cx="2330.5" cy="2050" rx="272.5" ry="109"/>
+    <ellipse class="cls-2" cx="1892.5" cy="2040" rx="272.5" ry="122"/>
+    <rect class="cls-2" x="116" y="2093" width="3553" height="67"/>
+  </g>
+</svg>
