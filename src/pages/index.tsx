@@ -47,14 +47,14 @@ export default function Home() {
               </a>
             </div>
           </header>
-          <main className="relative flex-1 w-full max-w-screen-2xl px-8 overflow-x-hidden ">
+          <main className="relative flex-1 w-full max-w-screen-2xl px-8 overflow-x-hidden flex flex-col justify-between lg:justify-start">
             <Suspense>
               <ModelCanvas/>
             </Suspense>
 
             <h2 className={`text-7xl mt-10 lg:mt-28 pb-10 overflow-hidden ${poppingBlack.className}`}>
               <ChangeTextInterval text={[
-                <HackEffectText key="hack-1" text="Full Stack!!" colorInUppercase intervalTimer={25}/>,
+                <HackEffectText key="hack-1" text="FullStack" colorInUppercase intervalTimer={25}/>,
                 <HackEffectText key="hack-2" text="Node.js" colorInUppercase />,
                 <HackEffectText key="hack-3" text="React.js" colorInUppercase />,
                 <HackEffectText key="hack-4" text="React Native" colorInUppercase />,
@@ -62,12 +62,14 @@ export default function Home() {
                 <HackEffectText key="hack-6" text="PHP" colorInUppercase />,
               ]} /></h2>
 
-            <p className={`w-3/6 leading-9 text-2xl mb-10 ${poppingBold.className}`}>Desenvolvedor Sênior com mais de 15 anos de experiência, especializado em Node.js, TypeScript e PHP<span className="blink">_</span></p>
+            <div>
+              <p className={`w-3/6 leading-9 text-2xl mb-10 ${poppingBold.className}`}>Desenvolvedor Sênior com mais de 15 anos de experiência, especializado em Node.js, TypeScript e PHP<span className="blink">_</span></p>
 
-            <blockquote className="border-l-4 pl-4">
-              <p>Cada sonho que você deixa para trás é um pedaço do seu futuro que deixa de existir</p>
-              <cite>Steve Jobs</cite>
-            </blockquote>
+              <blockquote className="border-l-4 pl-4">
+                <p>Cada sonho que você deixa para trás é um pedaço do seu futuro que deixa de existir</p>
+                <cite>Steve Jobs</cite>
+              </blockquote>
+            </div>
 
           </main>
           <footer className="w-full max-w-screen-2xl pt-8 pr-8 pb-4 pl-8 flex items-center justify-between gap-3">
@@ -88,7 +90,7 @@ export default function Home() {
                 () => { 
                   navigator.share({
                    title: 'Erik Figueiredo', 
-                   text: 'Compartilhar Site',                 
+                   text: 'Link do Linkedin, Github e download do currículo',                 
                    url: window.location.href
                   }
                 )}

@@ -7,11 +7,6 @@ import { Suspense } from "react";
 export const ThreeDModel = () => {
   const myMesh = React.useRef<any>()
   const { scene, animations } = useGLTF('/erikfig/lost-programmer.glb')
-  // const { actions } = useAnimations(animations, myMesh)
-
-  // useEffect(() => {
-  //   actions["Idle"]?.play()
-  // }, [actions])
 
   const [
     mousePosition,
@@ -31,15 +26,12 @@ export const ThreeDModel = () => {
 }, []);
 
   useFrame(({ clock }) => {
-    // myMesh.current.rotation.y = clock.getElapsedTime() * (mousePosition.y / 100000 * -1)
-    // myMesh.current.rotation.x = clock.getElapsedTime() * (mousePosition.x / 100000 * -1)
     myMesh.current.rotation.y = clock.getElapsedTime() / 40
     myMesh.current.rotation.x = clock.getElapsedTime() / 20
   })
 
   return (
     <mesh ref={myMesh} position={[3, 0, 0]} scale={[1, 1, 1]} rotation={[-2.5, -0.3, 0.3]}>
-    {/* <mesh ref={myMesh} position={[3, 0, 0]} scale={[0.02, 0.02, 0.02]} rotation={[1, 0, 0]}> */}
       <primitive object={scene} />
     </mesh>
   )

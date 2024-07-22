@@ -1,6 +1,6 @@
 {
-  "theme_color": "#ffffff",
-  "background_color": "#2EC6FE",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
   "icons": [
     {
       "purpose": "maskable",
@@ -41,6 +41,6 @@
   "short_name": "Erik Figueiredo",
   "start_url": "http://localhost:3000",
   "scope": "http://localhost:3000/",
-  "description": "Site pessoal de Erik Figueiredo - desenvolvedor sênior",
+  "description": "Erik Figueiredo - Desenvolvedor Dênior",
   "id": "http://localhost:3000"
 }
