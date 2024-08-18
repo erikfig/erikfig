@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/erikfig',
+  basePath: '',
   images: {
     unoptimized: true,
   },
   reactStrictMode: true,
   transpilePackages: ['three'],
-};
+}
 
-export default nextConfig;
+export default nextConfig

@@ -1,12 +1,12 @@
 
 import { useAnimations, useGLTF } from '@react-three/drei'
 import { Canvas, useFrame } from '@react-three/fiber'
-import React, { useEffect } from 'react';
-import { Suspense } from "react";
+import React, { useEffect } from 'react'
+import { Suspense } from "react"
 
 export const ThreeDModel = () => {
   const myMesh = React.useRef<any>()
-  const { scene, animations } = useGLTF('/erikfig/lost-programmer.glb')
+  const { scene, animations } = useGLTF('/lost-programmer.glb')
 
   const [
     mousePosition,
@@ -15,15 +15,15 @@ export const ThreeDModel = () => {
 
   React.useEffect(() => {
     const updateMousePosition = (e: any) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
+      setMousePosition({ x: e.clientX, y: e.clientY })
+    }
 
-    window.addEventListener('mousemove', updateMousePosition);
+    window.addEventListener('mousemove', updateMousePosition)
 
     return () => {
-      window.removeEventListener('mousemove', updateMousePosition);
-    };
-}, []);
+      window.removeEventListener('mousemove', updateMousePosition)
+    }
+  }, [])
 
   useFrame(({ clock }) => {
     myMesh.current.rotation.y = clock.getElapsedTime() / 40
@@ -39,12 +39,12 @@ export const ThreeDModel = () => {
 
 export const ThreeDModelCanva = () => {
   return (
-    <Canvas flat linear camera={{ near: 0.1, far: 1000}} style={{ height: 'calc(100vh)', position: 'fixed', right: 0, top: 0, zIndex: -1}}>
-        <Suspense fallback={null}>
-          <directionalLight position={[1, 1, 1]} intensity={2} />
+    <Canvas flat linear camera={{ near: 0.1, far: 1000 }} style={{ height: 'calc(100vh)', position: 'fixed', right: 0, top: 0, zIndex: -1 }}>
+      <Suspense fallback={null}>
+        <directionalLight position={[1, 1, 1]} intensity={2} />
 
-          <ThreeDModel />
-        </Suspense>
+        <ThreeDModel />
+      </Suspense>
     </Canvas>
   )
 }

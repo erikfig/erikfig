@@ -15,32 +15,30 @@
       "type": "image/png"
     }
   ],
-  "screenshots": [    
-   {
-
-     "src": "/screenshot.png",
+  "screenshots": [
+    {
+      "src": "/screenshot.png",
       "sizes": "375x667",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Application Mobile"
     },
-   {
-
-     "src": "/screenshot2.png",
+    {
+      "src": "/screenshot2.png",
       "sizes": "1024x768",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Application Desktop"
     }
- ],
+  ],
   "orientation": "portrait",
   "display": "fullscreen",
   "dir": "left",
   "lang": "pt-BR",
   "name": "Erik Figueiredo",
   "short_name": "Erik Figueiredo",
-  "start_url": "http://localhost:3000",
-  "scope": "http://localhost:3000/",
+  "start_url": "https://erikfigueiredo.com.br/",
+  "scope": "https://erikfigueiredo.com.br//",
   "description": "Erik Figueiredo - Desenvolvedor Dênior",
-  "id": "http://localhost:3000"
+  "id": "https://erikfigueiredo.com.br/"
 }
