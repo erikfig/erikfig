@@ -63,7 +63,7 @@ export default function Home() {
               ]} /></h2>
 
             <div>
-              <p className={`w-3/6 leading-9 text-2xl mb-10 ${poppingBold.className}`}>Desenvolvedor Sênior com mais de 15 anos de experiência, especializado em Node.js, TypeScript e PHP<span className="blink">_</span></p>
+              <p className={`w-3/6 leading-9 text-2xl mb-10 ${poppingBold.className}`}>Desenvolvedor FullStack Sênior com mais de 15 anos de experiência, especializado em Node.js, TypeScript e PHP<span className="blink">_</span></p>
 
               <blockquote className="border-l-4 pl-4">
                 <p>Cada sonho que você deixa para trás é um pedaço do seu futuro que deixa de existir</p>
