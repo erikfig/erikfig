@@ -22,6 +22,6 @@ Desenvolvedor Sênior com mais de 15 anos de experiência, especializado em Node
 [![Linkedin](https://img.shields.io/badge/linkedin-erik?style=for-the-badge&logo=linkedin&labelColor=%230e76a8&color=%230e76a8&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ferik-figueiredo%2F)
 ](https://www.linkedin.com/in/erik-figueiredo/)
 [![Personal Site](https://img.shields.io/badge/personal-site-erik?style=for-the-badge&labelColor=%230f172a&color=%230e76a8&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ferik-figueiredo%2F)
-](https://www.erikfigueiredo.com.br/)
+](https://erikfigueiredo.com.br/)
 
 ![stats](https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=erikfig&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats)
