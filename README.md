@@ -1,25 +1,15 @@
 <img src="https://raw.githubusercontent.com/erikfig/erikfig/main/public/banner.png" alt="Erik Figueiredo GitHub Banner" width="100%" />
 
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=erikfig.php-do-zero" />
+[![Linkedin](https://img.shields.io/badge/linkedin-erik?style=for-the-badge&logo=linkedin&labelColor=%230e76a8&color=%230e76a8&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ferik-figueiredo%2F)](https://www.linkedin.com/in/erik-figueiredo/)
 
-# 👋 Olá! Eu sou o Erik Figueiredo (˶ᵔ ᵕ ᵔ˶)
+<img src="https://skillicons.dev/icons?i=nodejs,nest,adonis,nextjs,nuxtjs,express,php,docker,kubernetes,nginx,mongodb,mysql,postgres,sqlite,js,html,css,nest,aws,gcp,githubactions,firebase,cypress,bitbucket,github,gitlab,deno,electron,materialui,linux,rabbitmq,redis,regex,sass,unreal,tailwind&perline=6" min-width="390px" max-width="390px" width="390px" align="right" alt="Stats">
 
-## Desenvolvedor Full Stack Senior apaixonado pelo que faz!
+🔧 Full Stack Sênior | Node.js | Typescript | React.js | PHP | Desenvolvo soluções performáticas para negócios digitais
 
-🔧 Desenvolvedor Sênior com mais de 15 anos de experiência, especializado em Node.js • PHP • Nest • React • Python • Docker • RabbitMQ 
+🎯 Desenvolvedor full-stack com cérebro de back-end, olho de designer e sede de criar soluções reais.
 
->Cada sonho que você deixa para trás é um pedaço do seu futuro que deixa de existir</p>
->*Steve Jobs*
+Sou especialista em Node.js, PHP e Python, com forte domínio de front-end em React e Vue.js. Tenho experiência em arquiteturas monolíticas e microserviços, e sei como transformar requisitos confusos em sistemas limpos, performáticos e fáceis de evoluir.
 
-## Minhas skills
+Já trabalhei de startups a produtos robustos, lidando com automações, APIs de alta demanda e integrações complexas. Hoje estou me aprofundando em DevOps, containerização e IA aplicada ao desenvolvimento, sempre combinando código sólido com design intuitivo.
 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,nest,adonis,nextjs,nuxtjs,express,php,docker,kubernetes,nginx,mongodb,mysql,postgres,sqlite,js,html,css,nest,aws,gcp,githubactions,firebase,cypress,bitbucket,github,gitlab,deno,electron,materialui,linux,rabbitmq,redis,regex,sass,unreal,tailwind&perline=9)](https://skillicons.dev)
-
-## Também é importante
-
-[![Linkedin](https://img.shields.io/badge/linkedin-erik?style=for-the-badge&logo=linkedin&labelColor=%230e76a8&color=%230e76a8&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ferik-figueiredo%2F)
-](https://www.linkedin.com/in/erik-figueiredo/)
-[![Personal Site](https://img.shields.io/badge/personal-site-erik?style=for-the-badge&labelColor=%230f172a&color=%230e76a8&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ferik-figueiredo%2F)
-](https://erikfigueiredo.com.br/)
-
-![stats](https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=erikfig&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats)
+🚀 Se você valoriza quem executa com qualidade, resolve pepinos difíceis e ainda entrega uma experiência polida, vamos conversar — adoro trocar ideias e construir junto!
