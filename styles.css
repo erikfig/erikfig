@@ -100,6 +100,7 @@ a {
 }
 
 @media (max-width: 860px) {
+  .sw-root .sw-hint { display: none; }
   .sw-root .sw-copylayer::before {
     inset: auto 0 0 0;
     width: 100%;
