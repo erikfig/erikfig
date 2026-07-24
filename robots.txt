@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://erikfig.dev/sitemap.xml
+Sitemap: https://erikfigueiredo.com.br/sitemap.xml
