@@ -1,3 +1,9 @@
+const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+const saveData = conn && conn.saveData;
+const slowNet = conn && ['slow-2g', '2g', '3g'].includes(conn.effectiveType);
+const mobileSuffix = (saveData || slowNet) ? '-mlow' : '-m';
+const mob = (n) => `assets/vid/scene_${n}${mobileSuffix}.mp4`;
+
 mountScrollWorld(document.getElementById('world'), {
   brand: { name: 'Erik Figueiredo', href: '#', logo: 'assets/logo.png' },
   diveScroll: 1.4,
@@ -10,7 +16,7 @@ mountScrollWorld(document.getElementById('world'), {
       label: 'The Craft',
       still: 'assets/scenes/scene_1.webp',
       clip: 'assets/vid/scene_1.mp4',
-      clipMobile: 'assets/vid/scene_1-m.mp4',
+      clipMobile: mob(1),
       accent: '#F97316',
       scroll: 1.6,
       linger: 0.4,
@@ -24,7 +30,7 @@ mountScrollWorld(document.getElementById('world'), {
       label: 'Backend Brain',
       still: 'assets/scenes/scene_2.webp',
       clip: 'assets/vid/scene_2.mp4',
-      clipMobile: 'assets/vid/scene_2-m.mp4',
+      clipMobile: mob(2),
       accent: '#0EA5E9',
       scroll: 1.5,
       linger: 0.35,
@@ -38,7 +44,7 @@ mountScrollWorld(document.getElementById('world'), {
       label: "Designer's Eye",
       still: 'assets/scenes/scene_3.webp',
       clip: 'assets/vid/scene_3.mp4',
-      clipMobile: 'assets/vid/scene_3-m.mp4',
+      clipMobile: mob(3),
       accent: '#84CC16',
       scroll: 1.5,
       linger: 0.35,
@@ -52,7 +58,7 @@ mountScrollWorld(document.getElementById('world'), {
       label: 'The Homelab',
       still: 'assets/scenes/scene_4.webp',
       clip: 'assets/vid/scene_4.mp4',
-      clipMobile: 'assets/vid/scene_4-m.mp4',
+      clipMobile: mob(4),
       accent: '#F97316',
       scroll: 1.6,
       linger: 0.4,
@@ -66,7 +72,7 @@ mountScrollWorld(document.getElementById('world'), {
       label: 'Ship & Share',
       still: 'assets/scenes/scene_5.webp',
       clip: 'assets/vid/scene_5.mp4',
-      clipMobile: 'assets/vid/scene_5-m.mp4',
+      clipMobile: mob(5),
       accent: '#F97316',
       scroll: 2.0,
       linger: 0.55,

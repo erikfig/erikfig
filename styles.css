@@ -117,29 +117,18 @@ a {
         transparent 100%);
     filter: blur(1px);
   }
-  .sw-root .sw-copy {
-    background: rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 22px;
-    padding: 20px 20px 24px;
-    min-width: 0;
-  }
-  .sw-root .sw-copy__title {
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    hyphens: auto;
-  }
   .sw-root .sw-copy__title,
-  .sw-root .sw-copy__body,
-  .sw-root .sw-copy__eyebrow,
-  .sw-root .sw-copy__num,
-  .sw-root .sw-copy__tags li {
+  .sw-root .sw-copy__body {
     text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9);
   }
-  .sw-root .sw-copy__tags li {
-    background: rgba(0, 0, 0, 0.4);
-    border-color: color-mix(in srgb, var(--sw-accent) 40%, transparent);
+  .sw-root .sw-copy__num,
+  .sw-root .sw-copy__eyebrow {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 5px 12px;
+    border-radius: 999px;
   }
+  .sw-root .sw-copy__eyebrow { margin-top: 10px; }
 }
