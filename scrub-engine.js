@@ -230,8 +230,9 @@ function mountScrollWorld(container, config) {
       .then(blob => {
         const v = document.createElement('video');
         v.className = 'sw-scene__video';
-        v.muted = true; v.playsInline = true; v.preload = 'auto';
+        v.muted = true; v.playsInline = true; v.preload = 'metadata';
         v.setAttribute('muted', ''); v.setAttribute('playsinline', '');
+        v.setAttribute('preload', 'metadata');
         v.src = URL.createObjectURL(blob);
         v.addEventListener('loadedmetadata', () => { s.ready = true; read(); });
         // Reveal the video (hide the still poster) only once a real frame has
