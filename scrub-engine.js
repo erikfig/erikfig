@@ -230,9 +230,8 @@ function mountScrollWorld(container, config) {
       .then(blob => {
         const v = document.createElement('video');
         v.className = 'sw-scene__video';
-        v.muted = true; v.playsInline = true; v.preload = 'metadata';
+        v.muted = true; v.playsInline = true; v.preload = 'auto';
         v.setAttribute('muted', ''); v.setAttribute('playsinline', '');
-        v.setAttribute('preload', 'metadata');
         v.src = URL.createObjectURL(blob);
         v.addEventListener('loadedmetadata', () => { s.ready = true; read(); });
         // Reveal the video (hide the still poster) only once a real frame has
@@ -244,15 +243,36 @@ function mountScrollWorld(container, config) {
       }).catch(() => { s.loading = false; });
   }
 
+  // Backpressure: iOS Safari OOM-kills video decoders when total decoded frames
+  // exceed the page budget. Keep a rolling window of loaded clips (current +
+  // neighbours) so no more than ~3 videos are decoded at once. Blob URL is
+  // revoked and the <video> element is torn down; the still poster takes over
+  // until the clip reloads on next approach.
+  function unloadClip(s) {
+    if (!s.video) return;
+    try { s.video.pause(); } catch (e) {}
+    try { URL.revokeObjectURL(s.video.src); } catch (e) {}
+    try { s.video.removeAttribute('src'); s.video.load(); } catch (e) {}
+    try { s.el.removeChild(s.video); } catch (e) {}
+    s.video = null; s.hasClip = false; s.ready = false; s.loading = false;
+    s.el.classList.remove('has-clip');
+  }
+
   function read() {
     const y = window.scrollY || window.pageYOffset;
     const fade = CROSSFADE * vh;
     let ci = 0;
     for (let i = 0; i < NSEG; i++) if (y >= SEGMENTS[i].start) ci = i;
 
+    // On mobile, keep only a rolling window of clips loaded (current ±1) to
+    // avoid iOS Safari OOM-killing all but the first decoder. On desktop, load
+    // greedily as before — memory is not the bottleneck.
+    const WINDOW = isMobile() ? 1 : NSEG;
     for (let i = 0; i < NSEG; i++) {
       const s = SEGMENTS[i];
-      if (y > s.start - 1.6 * vh && y < s.end + 1.6 * vh) loadClip(s);
+      const dist = Math.abs(i - ci);
+      if (y > s.start - 1.6 * vh && y < s.end + 1.6 * vh && dist <= WINDOW) loadClip(s);
+      if (isMobile() && dist > WINDOW && s.video) unloadClip(s);
       const local = clamp((y - s.start) / (s.end - s.start), 0, 1);
       s.target = s.linger ? lingerEase(local, s.linger) : local;
       let outside = 0;
